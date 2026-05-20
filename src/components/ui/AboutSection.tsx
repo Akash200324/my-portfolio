@@ -18,12 +18,12 @@ export default function AboutSection() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="flex-1 max-w-2xl text-left"
         >
-          <h2 className="font-heading font-bold text-2xl md:text-3xl tracking-widest text-white mb-8">
-            <span className="text-accent/60 mr-4">//</span> STATUS: ACTIVE
+          <h2 className="font-heading font-bold text-2xl md:text-3xl tracking-widest text-white mb-8 uppercase">
+            <span className="text-accent/60 mr-4">{"//"}</span> ABOUT ME
           </h2>
           
           <p className="font-sans text-lg md:text-xl leading-relaxed text-gray-300 font-medium">
-            I am a full-stack developer specializing in building high-performance web applications with futuristic user interfaces. Blending robust backend architecture with cutting-edge frontend aesthetics, I translate complex logic into seamless, interactive digital experiences. Powered by Next.js, TypeScript, and a passion for motion design. specialised in python
+            I am a full-stack developer specializing in building high-performance web applications with futuristic user interfaces. My core expertise is engineering robust, highly scalable backend architectures using <span className="text-accent font-bold tracking-wide">Python</span> and the <span className="text-accent font-bold tracking-wide">Django</span> framework. Blending this powerful server-side logic with cutting-edge frontend aesthetics, I translate complex requirements into seamless, interactive digital experiences. Alongside my primary focus on Python, I utilize Next.js and TypeScript to build modern frontends driven by a passion for motion design.
           </p>
         </motion.div>
 
